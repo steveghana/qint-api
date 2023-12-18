@@ -1,0 +1,21 @@
+{
+    "addWorker": "הוסף עובד",
+    "email": "דואר אלקטרוני",
+    "emailInvalid": "דוא\"ל לא תקין",
+    "requiredField": "שדה חובה",
+    "cancel": "ביטול",
+    "add": "הוספה",
+    "delete": "מחיקה",
+    "save": "שמירה",
+    "insertImg": "הכנס קישור לתמונה    ",
+    "permissions": "הרשאות",
+    "permissionsExplanation": "העובדים יכולים להשתמש במערכת, וניתן להגדיר הרשאות פרטניות לכל עובד.",
+    "saveSuccess": "השינויים נשמרו בהצלחה!",
+    "saveError/not allowed": "אין לך הרשאה. נסה להיכנס למערכת מחדש.",
+    "saveError/lacking owner": "חייב להיות לפחות משתמש אחד עם הרשאת בעלים.",
+    "saveError/dont touch owners": "אין לך הרשאה לשנות הרשאות של בעלים.",
+    "saveError/generic": "אירעה שגיאה, נסה שנית מאוחר יותר.",
+    "permission/canManagePermissions": "ניהול הרשאות",
+    "permission/canManageQueue": "ניהול תורים",
+    "permission/isOwner": "בעלים"
+}

@@ -1,0 +1,98 @@
+{
+    "enqueued": {
+        "default": {
+            "pushNotification": {
+                "title": "Hi {{name}} 👋, you enqueued to {{queueGroupName}} {{queueName}} successfully!",
+                "body": "Your number is {{number}}, {{beforeYou}} wait before you.\nWe'll notify you when your turn comes ☺️\nLink to queue: {{url}}"
+            },
+            "sms": "Hi {{name}} 👋, you enqueued to {{queueGroupName}} {{queueName}} successfully!\nYour number is {{number}}, {{beforeYou}} wait before you.\nWe'll notify you when your turn comes ☺️\nLink to queue: {{url}}"
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "Hi {{name}} 👋, you joined the waiting list at {{queueName}} successfully!",
+                "body": "We'll notify you when your turn comes ☺️\nLink to queue: {{url}}"
+            },
+            "sms": "Hi {{name}} 👋, you joined the waiting list at {{queueName}} successfully!\nWe'll notify you when your turn comes ☺️\nLink to queue: {{url}}"
+        }
+    },
+    "removedByQueueManager": {
+        "default": {
+            "pushNotification": {
+                "title": "You've been removed from the queue at {{queueName}} {{queueGroupName}}",
+                "body": "Hi {{customerName}}. Be advised, the queue manager removed you from the queue at {{queueName}} {{queueGroupName}}."
+            },
+            "sms": "Hi {{customerName}}. Be advised, the queue manager removed you from the queue at {{queueName}} {{queueGroupName}}."
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "You've been removed from the waiting list at {{queueName}}",
+                "body": "Hi {{customerName}}. Be advised, {{queueName}} removed you from the waiting list."
+            },
+            "sms": "Hi {{customerName}}. Be advised, {{queueName}} removed you from the waiting list."
+        }
+    },
+    "yourTurnArrived": {
+        "default": {
+            "pushNotification": {
+                "title": "Hi {{customerName}}, it's your turn! 🎉",
+                "body": "You're expected at {{queueGroupName}} {{queueName}}.\nLink to queue: {{url}}"
+            },
+            "sms": "Hi {{customerName}}, it's your turn! 🎉\nYou're expected at {{queueGroupName}} {{queueName}}.\nLink to queue: {{url}}"
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "Hi {{customerName}}, there's a free space in {{queueName}}!",
+                "body": "Enter the link to take it! 🎉\n\nLink to confirm or cancel arrival: {{url}}"
+            },
+            "sms": "Hi {{customerName}}, there's a free space in {{queueName}}!\nEnter the link to take it! 🎉\n\nLink to confirm or cancel arrival: {{url}}"
+        }
+    },
+    "yourTurnIsNearing": {
+        "default": {
+            "pushNotification": {
+                "title": "Your turn at {{queueGroupName}} {{queueName}} is nearing",
+                "body": "There are {{inQueueBeforeMe}} people before you, we recommend being nearby."
+            },
+            "sms": "Your turn at {{queueGroupName}} {{queueName}} is nearing.\nThere are {{inQueueBeforeMe}} people before you, we recommend being nearby."
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "Your turn at {{queueGroupName}} {{queueName}} is nearing",
+                "body": "There are {{inQueueBeforeMe}} people before you, we recommend being nearby."
+            },
+            "sms": "Your turn at {{queueGroupName}} {{queueName}} is nearing.\nThere are {{inQueueBeforeMe}} people before you, we recommend being nearby."
+        }
+    },
+    "longWaitingAcknowledgement": {
+        "default": {
+            "pushNotification": {
+                "title": "We didn't forget you",
+                "body": "Hi {{customerName}}, we didn't forget you, your table will be ready in a bit"
+            },
+            "sms": "Hi {{customerName}}, we didn't forget you, your table will be ready in a bit"
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "We didn't forget you",
+                "body": "Hi {{customerName}}, we didn't forget you, don't worry, we'll call you when your turn comes :)"
+            },
+            "sms": "Hi {{customerName}}, we didn't forget you, don't worry, we'll call you when your turn comes :)"
+        }
+    },
+    "restoredAcknowledgement": {
+        "default": {
+            "pushNotification": {
+                "title": "You've been successfully restored to the queue,",
+                "body": "we'll notify you when your turn comes.\nLink to queue: {{url}}"
+            },
+            "sms": "You've been successfully restored to the queue,\nwe'll notify you when your turn comes.\nLink to queue: {{url}}"
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "You've been successfully restored to the queue,",
+                "body": "we'll notify you when your turn comes.\nLink to queue: {{url}}"
+            },
+            "sms": "You've been successfully restored to the queue,\nwe'll notify you when your turn comes.\nLink to queue: {{url}}"
+        }
+    }
+}

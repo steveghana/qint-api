@@ -1,0 +1,98 @@
+{
+    "enqueued": {
+        "default": {
+            "pushNotification": {
+                "title": "היי {{name}} 👋, נרשמת לתור {{queueName}} {{queueGroupName}} בהצלחה!",
+                "body": "מספרך הוא {{number}}, לפניך יש {{beforeYou}} אנשים.\nנקרא לך כשתורך יגיע ☺️\nקישור לתור: {{url}}"
+            },
+            "sms": "היי {{name}} 👋, נרשמת לתור {{queueName}} {{queueGroupName}} בהצלחה!\nמספרך הוא {{number}}, לפניך יש {{beforeYou}} אנשים.\nנקרא לך כשתורך יגיע ☺️\nקישור לתור: {{url}}"
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "היי {{name}} 👋, נרשמת לרשימת ההמתנה {{queueName}} בהצלחה!",
+                "body": "נקרא לך כשתורך יגיע ☺️\nקישור לתור: {{url}}"
+            },
+            "sms": "היי {{name}} 👋, נרשמת לרשימת ההמתנה {{queueName}} בהצלחה!\nנקרא לך כשתורך יגיע ☺️\nקישור לתור: {{url}}"
+        }
+    },
+    "removedByQueueManager": {
+        "default": {
+            "pushNotification": {
+                "title": "הוציאו אותך מהתור {{queueName}} {{queueGroupName}}",
+                "body": "היי {{customerName}}. לידיעתך, מנהל התור {{queueName}} {{queueGroupName}} הוציא אותך מהתור."
+            },
+            "sms": "היי {{customerName}}. לידיעתך, מנהל התור {{queueName}} {{queueGroupName}} הוציא אותך מהתור."
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "הוציאו אותך מרשימת ההמתנה {{queueName}}",
+                "body": "היי {{customerName}}. לידיעתך, {{queueName}} הוציאו אותך מרשימת ההמתנה."
+            },
+            "sms": "היי {{customerName}}. לידיעתך, {{queueName}} הוציאו אותך מרשימת ההמתנה."
+        }
+    },
+    "yourTurnArrived": {
+        "default": {
+            "pushNotification": {
+                "title": "היי {{customerName}}, תורך הגיע! 🎉",
+                "body": "ממתינים לך ב {{queueGroupName}} {{queueName}}.\nקישור לתור: {{url}}"
+            },
+            "sms": "היי {{customerName}}, תורך הגיע! 🎉\nממתינים לך ב {{queueGroupName}} {{queueName}}.\nקישור לתור: {{url}}"
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "היי {{customerName}}, התפנה מקום ב {{queueName}}!",
+                "body": "היכנסו לקישור כדי לתפוס אותו! 🎉\n\nקישור לאישור או ביטול הגעה: {{url}}"
+            },
+            "sms": "היי {{customerName}}, התפנה מקום ב {{queueName}}!\nהיכנסו לקישור כדי לתפוס אותו! 🎉\n\nקישור לאישור או ביטול הגעה: {{url}}"
+        }
+    },
+    "yourTurnIsNearing": {
+        "default": {
+            "pushNotification": {
+                "title": "תורך ל {{queueGroupName}} {{queueName}} מתקרב",
+                "body": "יש {{inQueueBeforeMe}} אנשים לפניך, מומלץ להגיע לקרבת מקום."
+            },
+            "sms": "תורך ל {{queueGroupName}} {{queueName}} מתקרב.\nיש {{inQueueBeforeMe}} אנשים לפניך, מומלץ להגיע לקרבת מקום."
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "תורך ל {{queueGroupName}} {{queueName}} מתקרב",
+                "body": "יש {{inQueueBeforeMe}} אנשים לפניך, מומלץ להגיע לקרבת מקום."
+            },
+            "sms": "תורך ל {{queueGroupName}} {{queueName}} מתקרב.\nיש {{inQueueBeforeMe}} אנשים לפניך, מומלץ להגיע לקרבת מקום."
+        }
+    },
+    "longWaitingAcknowledgement": {
+        "default": {
+            "pushNotification": {
+                "title": "לא שכחנו אותך",
+                "body": "היי {{customerName}}, לא שכחנו אותך, עוד קצת והשולחן שלך יהיה מוכן"
+            },
+            "sms": "היי {{customerName}}, לא שכחנו אותך, עוד קצת והשולחן שלך יהיה מוכן"
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "לא שכחנו אותך",
+                "body":  "היי {{customerName}}, לא שכחנו אותך, אל דאגה, נקרא לך שתורך מתקרב :) "
+            },
+            "sms": "היי {{customerName}}, לא שכחנו אותך, אל דאגה, נקרא לך שתורך מתקרב :) "
+        }
+    },
+    "restoredAcknowledgement": {
+        "default": {
+            "pushNotification": {
+                "title": "חזרת לרשימת ההמתנה בהצלחה,",
+                "body": "נעדכן אותך כשתורך יגיעה\nקישור לתור: {{url}}"
+            },
+            "sms": "חזרת לרשימת ההמתנה בהצלחה, נעדכן אותך כשתורך יגיעה\nקישור לתור: {{url}}"
+        },
+        "restaurant": {
+            "pushNotification": {
+                "title": "חזרת לרשימת ההמתנה בהצלחה,",
+                "body": "נעדכן אותך כשתורך יגיעה\nקישור לתור: {{url}}"
+            },
+            "sms": "חזרת לרשימת ההמתנה בהצלחה, נעדכן אותך כשתורך יגיעה\nקישור לתור: {{url}}"
+        }
+    }
+}

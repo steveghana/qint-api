@@ -1,0 +1,21 @@
+{
+    "addWorker": "Add worker",
+    "email": "Email",
+    "emailInvalid": "Invalid email",
+    "requiredField": "Required field",
+    "cancel": "Cancel",
+    "add": "Add",
+    "delete": "Delete",
+    "save": "Save",
+    "insertImg": "Insert image url",
+    "permissions": "Permissions",
+    "permissionsExplanation": "Workers can use the system, and permissions can be configured for each worker.",
+    "saveSuccess": "Changes saved successfully!",
+    "saveError/not allowed": "You're unauthorized. Try re-entering the system.",
+    "saveError/lacking owner": "At least one user needs to be owner.",
+    "saveError/dont touch owners": "You're not authorized to change owner permissions.",
+    "saveError/generic": "An error occurred, try again later.",
+    "permission/canManagePermissions": "Permission manager",
+    "permission/canManageQueue": "Queue manager",
+    "permission/isOwner": "Owner"
+}

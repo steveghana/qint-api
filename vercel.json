@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/apps/api-gateway/main.ts",
+      "use": "@vercel/node",
+      "config": {
+        "FS_PERMISSIONS": "755"
+      }
+
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "src/apps/api-gateway/main.ts"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET,OPTIONS,PATCH,DELETE,POST,PUT"
+        }
+      ]
+    }
+  ],
+
+  "env": {
+    "PORT": "65535"
+  }
+
+}

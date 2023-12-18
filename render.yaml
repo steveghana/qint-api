@@ -1,0 +1,22 @@
+services:
+- name: api
+  build:
+    dockerfile: Dockerfile
+    context: .
+  env:
+    DATABASE_URL: postgres://user:password@postgres:5432/db
+    NODE_ENV: development
+    PORT: 3000
+  internal_ports:
+    - 3000
+  http_port: 8080
+  depends_on:
+    - postgres
+- name: postgres
+  image: postgres:12-alpine
+  env:
+    POSTGRES_USER: user
+    POSTGRES_PASSWORD: password
+    POSTGRES_DB: db
+  internal_ports:
+    - 5432
